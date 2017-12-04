@@ -4,18 +4,22 @@
 <script>
 
 function factorial(n){
-	var a = prompt("Number please: ")
-	var aa = parseInt (a,10)
+	var x = 1
 
-	for(var x = 1; x <= aa; x = x + 1){
-		var b = (x*aa)
-		console.log(b)
+	for(var s = n; s>= 1; s = s -1){
+		n = n *s
 	}
 
-//doesn't work fully.
+	console.log(a)
+	return a
+
+
 
 }
-factorial();
+var s = factorial(prompt("Number Please: "));
+
+
+
 
 </script>
 </body>
